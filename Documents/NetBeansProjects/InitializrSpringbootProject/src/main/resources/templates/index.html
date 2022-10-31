@@ -11,6 +11,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>Masukkan Data</div>
+        <hr />
+        <form method="post" enctype="multipart/form-data" action="/masuk">
+            Nama        : <input type="text" name="mNama"/><br><br>
+            Tgl Lahir   : <input type="date" name="mTanggal"/><br><br>
+            Pilih Gambar: <input type="file" name="mFile" accept="image/png, image/jpeg" required=""/><br><br>
+            <input type="Submit" value="Enter"/><br><br>
+        </form>
     </body>
 </html>
